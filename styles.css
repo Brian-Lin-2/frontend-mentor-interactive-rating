@@ -1,0 +1,43 @@
+.rating {
+    border: 1px red solid;
+
+    display: flex;
+    align-items: center;
+
+    min-height: 100vh;
+}
+
+.rating__container {
+    border: 1px red solid;
+}
+
+.rating__picture {
+    border: 1px red solid;
+}
+
+.rating__header {
+    border: 1px red solid;
+}
+
+.rating__text {
+    border: 1px red solid;
+}
+
+.rating__numbers {
+    border: 1px red solid;
+
+    display: flex;
+}
+
+.button {
+    border: 1px red solid;
+}
+
+/* Hidden until user presses the submit button */
+.thanks {
+    /* 
+    display:none removes the entire element from the page
+    visibility:hidden hides the element from the page, but it's still there.
+    */
+    display: none;
+}

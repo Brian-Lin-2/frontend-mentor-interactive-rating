@@ -11,6 +11,8 @@ body {
     background-color: hsl(216, 12%, 8%);
 }
 
+/* Style for Rating State */
+
 .rating {
     display: flex;
     align-items: center;
@@ -84,11 +86,52 @@ body {
     background-color: hsl(25, 97%, 53%);
 }
 
+/* Style for Thank You State */
+
 /* Hidden until user presses the submit button */
 .thanks {
+    border: 1px solid red;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 375px;
+    height: 667px;
+}
+
+.thanks__container {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.thanks__picture {
+    border: 1px solid red;
+
+    width: 150px;
+}
+
+.thanks__selection {
+    border: 1px solid red;
+}
+
+.thanks__header {
+    border: 1px solid red;
+}
+
+.thanks__text {
+    border: 1px solid red;
+}
+
+.hide {
     /* 
     display:none removes the entire element from the page
     visibility:hidden hides the element from the page, but it's still there.
     */
+    /* display: none; */
     display: none;
 }

@@ -1,36 +1,68 @@
+body {
+    /* Padding and border is included in an element's total dimensions. */
+    box-sizing: border-box;
+
+    /* Makes everything a block element. */
+    display: block;
+
+    font-family: 'Overpass', 'Times New Roman', Times, serif;
+    font-size: 15px;
+
+    background-color: hsl(216, 12%, 8%);
+}
+
 .rating {
     border: 1px red solid;
 
     display: flex;
     align-items: center;
+    justify-content: center;
 
     min-height: 100vh;
 }
 
 .rating__container {
     border: 1px red solid;
+
+    background-color: hsl(213, 19%, 18%);
+    padding: 30px;
+
+    margin: 20px;
 }
 
 .rating__picture {
-    border: 1px red solid;
+    /* border: 1px red solid; */
+
+    border-radius: 50%;
+    padding: 15px;
+
+    background-color: hsla(216, 12%, 54%, 15%);
 }
 
 .rating__header {
     border: 1px red solid;
+
+    color: hsl(0, 0%, 100%);
 }
 
 .rating__text {
     border: 1px red solid;
+
+    color: hsl(217, 12%, 63%);
 }
 
 .rating__numbers {
     border: 1px red solid;
 
     display: flex;
+
+    color: hsl(217, 12%, 63%);
 }
 
 .button {
     border: 1px red solid;
+
+    color: hsl(0, 0%, 100%);
 }
 
 /* Hidden until user presses the submit button */

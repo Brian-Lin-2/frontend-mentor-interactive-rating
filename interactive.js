@@ -6,13 +6,13 @@ const button = document.querySelector(".button");
 
 numbers.forEach((num) => {
     num.addEventListener("click", () => {
-        rating = num.textContent.trim();
-        num.classList.add("select");
-
         // Deselect previous number.
         if (active !== "") {
             active.classList.remove("select");
         }
+        
+        rating = num.textContent.trim();
+        num.classList.add("select");
 
         active = num;
     }

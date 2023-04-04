@@ -145,6 +145,7 @@ body {
 }
 
 /* Active States (Desktop) */
+
 @media screen and (min-width: 500px) {
     .number:hover {
         cursor: pointer;
@@ -160,6 +161,7 @@ body {
 }
 
 /* Toggles */
+
 .hide {
     /* 
     display:none removes the entire element from the page

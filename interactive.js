@@ -14,7 +14,7 @@ numbers.forEach((num) => {
             selectedRating.classList.remove("select");
         }
 
-        currRating = num.textContent.trim();
+        currRating = num.textContent;
         num.classList.add("select");
 
         selectedRating = num;

@@ -90,19 +90,6 @@ body {
     background-color: hsl(25, 97%, 53%);
 }
 
-/* Active states */
-.number:hover {
-    cursor: pointer;
-    background-color: hsl(25, 97%, 53%);
-    color: hsla(0, 0%, 100%, 85%);
-}
-
-.button:hover {
-    cursor: pointer;
-    background-color: hsla(0, 0%, 100%, 85%);
-    color:hsl(25, 97%, 53%)
-}
-
 /* Style for Thank You State */
 
 /* Hidden until user presses the submit button */
@@ -157,6 +144,20 @@ body {
     line-height: 25px;
 }
 
+/* Active states */
+.number:hover {
+    cursor: pointer;
+    background-color: hsl(25, 97%, 53%);
+    color: hsla(0, 0%, 100%, 85%);
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: hsla(0, 0%, 100%, 85%);
+    color:hsl(25, 97%, 53%)
+}
+
+/* Toggles */
 .hide {
     /* 
     display:none removes the entire element from the page
@@ -164,4 +165,9 @@ body {
     */
     /* display: none; */
     display: none;
+}
+
+.select {
+    background-color: hsl(216, 12%, 54%);
+    color: hsla(0, 0%, 100%, 85%);
 }

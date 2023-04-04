@@ -144,17 +144,19 @@ body {
     line-height: 25px;
 }
 
-/* Active states */
-.number:hover {
-    cursor: pointer;
-    background-color: hsl(25, 97%, 53%);
-    color: hsla(0, 0%, 100%, 85%);
-}
-
-.button:hover {
-    cursor: pointer;
-    background-color: hsla(0, 0%, 100%, 85%);
-    color:hsl(25, 97%, 53%)
+/* Active States (Desktop) */
+@media screen and (min-width: 500px) {
+    .number:hover {
+        cursor: pointer;
+        background-color: hsl(25, 97%, 53%);
+        color: hsla(0, 0%, 100%, 85%);
+    }
+    
+    .button:hover {
+        cursor: pointer;
+        background-color: hsla(0, 0%, 100%, 85%);
+        color:hsl(25, 97%, 53%)
+    }
 }
 
 /* Toggles */

@@ -18,8 +18,8 @@ numbers.forEach((num) => {
         num.classList.add("select");
 
         selectedRating = num;
-    }
-)});
+    })
+});
 
 button.addEventListener("click", () => {
     // Make sure you can't select if rating isn't chosen.

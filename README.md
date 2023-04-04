@@ -33,22 +33,29 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+Rating Component:
+<img width="499" alt="image" src="https://user-images.githubusercontent.com/19761406/229794086-50fc6590-366a-4bd7-8d90-066daaf9ca3d.png">
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
+Selected Rating:
+<img width="527" alt="image" src="https://user-images.githubusercontent.com/19761406/229794177-d33ca472-903a-4779-9e9b-c4d9ec2c54ab.png">
 
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
+Hovered Rating:
+<img width="507" alt="image" src="https://user-images.githubusercontent.com/19761406/229794240-1c0c0172-778c-4216-963d-be330ecb36ca.png">
 
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
+Hovered Button:
+<img width="519" alt="image" src="https://user-images.githubusercontent.com/19761406/229794350-0bae96e9-b62c-4ee3-b2cb-c27a036d1f84.png">
 
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+Thank You Component:
+<img width="480" alt="image" src="https://user-images.githubusercontent.com/19761406/229794405-4aded1ed-a671-4f47-9df0-bce12a0658c2.png">
 
 ### Links
 
 - Solution URL: https://github.com
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: https://frontend-mentor-interactive-rating-bzfenevzt-brian-lin-2.vercel.app
 
 ## My process
+
+Started off with basic HTML formatting before transitioning into a basic flexbox layout. Then, I added the css styling for the rating component before styling the thank you component. Finally, I added the JS and active states.
 
 ### Built with
 
@@ -59,27 +66,31 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I learned that on mobile devices, the 'hover' property for elements doesn't really work. Therefore, it's best to avoid hover elements for mobile devices.
 
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+@media screen and (min-width: 500px) {
+    .number:hover {
+        cursor: pointer;
+        background-color: hsl(25, 97%, 53%);
+        color: hsla(0, 0%, 100%, 85%);
+    }
+    
+    .button:hover {
+        cursor: pointer;
+        background-color: hsla(0, 0%, 100%, 85%);
+        color:hsl(25, 97%, 53%)
+    }
 }
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+I learned more about gradients in css and how to create directional ones.
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+```css
+.rating__container {
+  background: linear-gradient(to bottom right, hsl(213, 19%, 18%), 25%, hsla(213, 19%, 18%, 50%));
+}
+```
 
 ### Continued development
 

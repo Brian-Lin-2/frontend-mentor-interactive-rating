@@ -24,9 +24,8 @@ body {
 
 .rating__container {
     border-radius: 5%;
+    background: linear-gradient(to bottom right, hsl(213, 19%, 18%), 25%, hsla(213, 19%, 18%, 50%));
 
-    /* Add color gradient. */
-    background-color: hsl(213, 19%, 18%);
     padding: 30px 20px;
     margin: 20px;
 }
@@ -106,11 +105,9 @@ body {
 
     display: flex;
     flex-direction: column;
-
     align-items: center;
 
-    /* Add color gradient. */
-    background-color: hsl(213, 19%, 18%);
+    background: linear-gradient(to bottom right, hsl(213, 19%, 18%), 25%, hsla(213, 19%, 18%, 50%));
     
     padding: 40px 20px;
     margin: 20px;

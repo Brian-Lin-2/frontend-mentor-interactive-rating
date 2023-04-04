@@ -7,13 +7,13 @@ body {
 
     font-family: 'Overpass', 'Times New Roman', Times, serif;
     font-size: 15px;
-
+  
     background-color: hsl(216, 12%, 8%);
 }
 
 /* Style for Rating State */
 
-.rating {
+.rating { 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -78,12 +78,29 @@ body {
 
 .button {
     border-radius: 25px;
+    border: none;
 
+    font-weight: bold;
     color: hsla(0, 0%, 100%, 85%);
     text-align: center;
 
     padding: 12px;
+    width: 300px;
+
     background-color: hsl(25, 97%, 53%);
+}
+
+/* Active states */
+.number:hover {
+    cursor: pointer;
+    background-color: hsl(25, 97%, 53%);
+    color: hsla(0, 0%, 100%, 85%);
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: hsla(0, 0%, 100%, 85%);
+    color:hsl(25, 97%, 53%)
 }
 
 /* Style for Thank You State */
